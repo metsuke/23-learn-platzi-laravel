@@ -21,6 +21,12 @@
         </style>
     </head>
     <body class="antialiased">
-       <h1>{{$texto}}</h1>
-    </body>
+    
+        <h1>
+            @isset($texto)
+                {{$texto}}
+            @else
+                UNDEFINED
+            @endisset
+        </h1>
 </html>
