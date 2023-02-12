@@ -21,6 +21,6 @@
         </style>
     </head>
     <body class="antialiased">
-       <h1>Jander View</h1>
+       <h1>{{$texto}}</h1>
     </body>
 </html>
