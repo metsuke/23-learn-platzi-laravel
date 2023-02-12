@@ -22,11 +22,5 @@
     </head>
     <body class="antialiased">
     
-        <h1>
-            @isset($texto)
-                {{$texto}}
-            @else
-                UNDEFINED
-            @endisset
-        </h1>
+        <h1>Dashboard</h1>
 </html>
